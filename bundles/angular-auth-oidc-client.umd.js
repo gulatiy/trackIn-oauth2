@@ -19,7 +19,7 @@ var DefaultConfiguration = /** @class */ (function () {
         this.hd_param = '';
         this.post_logout_redirect_uri = 'https://localhost:44311/unauthorized';
         this.start_checksession = false;
-        this.silent_renew = true;
+        this.silent_renew = false;
         this.silent_renew_offset_in_seconds = 0;
         this.post_login_route = '/';
         // HTTP 403
